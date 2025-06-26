@@ -1,3 +1,15 @@
 # netlify.toml
+
+[build]
+  # O comando que o Netlify executará para construir o seu site.
+  # Para Vite/React, geralmente é 'npm run build'.
+  command = "npm run build"
+
+  # O diretório que o Netlify deve publicar após o build.
+  # Para Vite, geralmente é 'dist'.
+  publish = "dist"
+
 [functions]
+  # O diretório onde suas Netlify Functions estão localizadas.
+  # (Já havíamos configurado isso anteriormente para as suas funções).
   directory = "netlify/functions"
