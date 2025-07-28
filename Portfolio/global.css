@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.josefin-sans-<uniquifier > {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#background-video {
+  height: 100%;
+  width: 100%;
+  float: left;
+  top: 0;
+  padding: none;
+  position: fixed;
+  z-index: -1;
+  object-fit: cover;
+}
+
+@theme {
+  --ruby-color: #ff0a1b;
+  --js-color: #f7df1e;
+  --ts-color: #007acc;
+  --tailwind-color: #0aa9ff;
+}
