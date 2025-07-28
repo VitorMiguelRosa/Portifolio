@@ -1,3 +1,5 @@
+import { FaLinkedin } from "react-icons/fa";
+
 const LinkedinCard = () => {
   const linkedInProfileUrl =
     "https://www.linkedin.com/in/VitorMiguelRosaPortela";
@@ -41,14 +43,7 @@ const LinkedinCard = () => {
             className="mt-2 inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
             See LinkedIn Profile
-            <svg
-              className="ml-2 -mr-1 h-5 w-5"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <path d="M20 3H4C2.34 3 1 4.34 1 6v12c0 1.66 1.34 3 3 3h16c1.66 0 3-1.34 3-3V6c0-1.66-1.34-3-3-3zM9 18H6v-6h3v6zm-1.5-7.5c-.83 0-1.5-.67-1.5-1.5S6.67 7.5 7.5 7.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm10.5 7.5h-3v-4.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5V18h-3v-6h3v1.5c.83-.83 1.5-1.5 1.5-1.5s.67-.67 1.5-.67c1.66 0 3 1.34 3 3V18z" />
-            </svg>
+            <FaLinkedin size={20} className="ml-1" />
           </a>
         </div>
       </div>

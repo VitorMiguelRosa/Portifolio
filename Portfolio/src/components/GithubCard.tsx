@@ -3,7 +3,7 @@ const GithubCard = () => {
   const profileImageSrc = "meprof.png";
   const profileName = "Vitor Miguel Rosa Portela";
   const profileHeadline =
-    "Desenvolvedor Full-stack | React, Typescript, Javascript, Ruby, Ruby on Rails";
+    "Full-stack Junior Developer | React, Typescript, Javascript, Ruby, Ruby on Rails";
 
   return (
     <div className="items-center w-2/3 bg-gray-800 mt-4 flex flex-col p-4 rounded-lg shadow-lg text-white">
@@ -40,7 +40,7 @@ const GithubCard = () => {
             rel="noopener noreferrer"
             className="mt-2 inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
           >
-            Ver perfil no GitHub
+            See GitHub Profile
             <svg
               className="ml-2 -mr-1 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
