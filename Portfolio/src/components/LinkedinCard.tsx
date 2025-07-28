@@ -4,7 +4,7 @@ const LinkedinCard = () => {
   const profileImageSrc = "meprof.png";
   const profileName = "Vitor Miguel Rosa Portela";
   const profileHeadline =
-    "Desenvolvedor Full-stack | React, Typescript, Javascript,  Ruby, Ruby on Rails";
+    "Full-stack Junior Developer | React, Typescript, Javascript,  Ruby, Ruby on Rails";
 
   return (
     <div className=" w-2/3 items-center bg-slate-800 mt-4 flex flex-col p-4 rounded-lg shadow-lg text-white">
@@ -40,7 +40,7 @@ const LinkedinCard = () => {
             rel="noopener noreferrer"
             className="mt-2 inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
           >
-            Ver perfil no LinkedIn
+            See LinkedIn Profile
             <svg
               className="ml-2 -mr-1 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"
